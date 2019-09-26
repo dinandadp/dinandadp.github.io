@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Beranda</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: mediumturquoise; margin-right: 20px; margin-left: 20px;
+}
+
+header {
+  background-image : url('image/background.jpg');
+  padding: 40px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 10%;
+  height: 450px;
+  background: lightgrey;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: lavender;
+  height: 450px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: darkslategrey;
+  padding: 10px;
+  text-align: center;
+  font-family: arial narrow;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  footer {
+    width: 100%;
+    height: auto;
+    font-size: 50%;
+  }
+  
+  body {
+    font-size: 50%;
+    margin-right: 10px; 
+    margin-left: 10px;
+  }
+  
+  article{
+    width: 70%;
+    height: 400px;
+    font-size: 70%;
+    float: left;
+  }
+
+  header {
+    width: 100%;
+    height: 200px;
+    font-size: 130%;
+  }
+
+  img {
+    height:55px;
+    width: 20%;
+    border-radius: 100%;
+  }
+
+  nav {
+    width: 30%;
+    height: 400px;
+    font-size: 80%;
+    float:left;
+  }
+  iframe, video {
+    width: 70%;
+    height: 90px;
+  }
+}
+</style>
+</head>
+<body>
+
+<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
+<p id="demo"></p>
+<h1 style="font-family:ink free; font-size:150%; color: white; float: left;">dyne</h1>
+<h1 style="font-family:calibri; font-size:100%; color: white; float: right;">dinandadepaguita@gmail.com</h1><br><br><br>
+
+<header>
+  <img src="image/profil.png" width="250" height="250" style="float: center; border-radius: 100%;">
+  <h1 style="font-family: comic sans ms; font-size:100%;">Dinanda De Paguita</h1>
+  <a href="http://dinandadp.blogspot.com/"><img src="image/blog.png" width="30" height="30"></a>
+  <a href="https://www.instagram.com/dinandadp/?hl=en"><img src="image/ig.png" width="30" height="30"></a>
+  <a href="https://www.youtube.com/channel/UCdUDY3K-QE5Isx9WnCgGdxA/featured"><img src="image/youtube.png" width="30" height="30" style="float: center;"></a>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="beranda.html" style="font-family: arial narrow; color: darkslategrey;">BERANDA</a></li><br>
+      <li><a href="biodata.html" style="font-family: arial narrow; color: darkslategrey;">BIODATA</a></li><br>
+      <li><a href="formkritik.html" style="font-family: arial narrow; color: darkslategrey;">FORM KRITIK & SARAN</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style="font-family: arial narrow; font-size: 200%; color: darkslategrey;">KONTEN</h1>
+    <p>
+      <iframe width="370" height="225" src="https://www.youtube.com/embed/F5tv3X5boiw"></iframe>
+      <iframe width="370" height="225" src="https://www.youtube.com/embed/w0DHObz2rbc"></iframe>
+      <video  width="370" height="235" controls><source src="video.mp4" type="video/mp4"></video>
+    </p>
+  </article>
+</section>
+
+<footer>
+  <p style="font-family: arial narrow">dyne theme by Dinanda De Paguita | Copyright© 2019 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

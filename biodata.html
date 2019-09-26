@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Biodata</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: mediumturquoise; margin-right: 20px; margin-left: 20px;
+}
+
+header {
+  background-image : url('image/background.jpg');
+  padding: 40px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: lavender;
+  height: 1349px;
+  color: darkslategrey;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: darkslategrey;
+    color:darkslategrey; 
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: darkslategrey;
+  padding: 10px;
+  text-align: center;
+  font-family: arial narrow;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  footer {
+    width: 100%;
+    height: auto;
+    font-size: 50%;
+  }
+
+  article {
+    width: 100%;
+    height: auto;
+    font-size: 80%;
+  }
+
+  body {
+    font-size: 50%;
+    margin-right: 10px; 
+    margin-left: 10px;
+  }
+
+  header {
+    width: 100%;
+    height: 200px;
+    font-size: 130%;
+  }
+
+  img {
+    height:55px;
+    width: 20%;
+    border-radius: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
+<p id="demo"></p>
+<h1 style="font-family:ink free; font-size:150%; color: white; float: left;">dyne</h1>
+<h1 style="font-family:calibri; font-size:100%; color: white; float: right;">dinandadepaguita@gmail.com</h1><br><br><br>
+
+<header>
+  <img src="image/profil.png" width="250" height="250" style="float: center; border-radius: 100%;">
+  <h1 style="font-family: comic sans ms; font-size:100%;">Dinanda De Paguita</h1>
+  <a href="http://dinandadp.blogspot.com/"><img src="image/blog.png" width="30" height="30"></a>
+  <a href="https://www.instagram.com/dinandadp/?hl=en"><img src="image/ig.png" width="30" height="30"></a>
+  <a href="https://www.youtube.com/channel/UCdUDY3K-QE5Isx9WnCgGdxA/featured"><img src="image/youtube.png" width="30" height="30" style="float: center;"></a>
+</header>
+
+<section>
+  <article>
+    <h1 style="font-family: arial narrow; font-size: 200%; color: darkslategrey; text-align: center;">BIODATA</h1>
+    <pre style="font-size: 140%;"><p>
+<b><mark style="background-color:darkslategrey; color:white;">DATA DIRI</mark></b><br>
+Nama Lengkap            : Dinanda De Paguita<br>
+Jenis Kelamin           : (Perempuan/<del>Laki-Laki</del>)<br>
+Umur                    : 20<br>
+Tempat & Tanggal Lahir  : Pontianak, 28 April 1999<br>
+Kewarganegaraan         : WNI<br>
+Agama                   : Islam<br>
+Alamat Lengkap*         : Jalan Apel Gg. Sahang No.3<br>
+No Handphone*           : +6282149812844<br>
+Alamat Email*           : dinandadepaguita@gmail.com<br>
+Hobi Favorite           : <ol><li>Badminton</li><br><li>Volly</li></ol> 
+Makanan Favorite        : <ul><li>Nasi Goreng</li><br><li>Kwe Tiau</li></ul>
+Lagu Favorite           : <audio controls><source src="lagu.mp3" type="audio/mpeg"></audio><br>
+    
+<b><mark style="background-color:darkslategrey; color:white;">RIWAYAT PENDIDIKAN</mark></b><br>
+    <table>
+      <tr>
+        <th>Nama Sekolahh/Perguruan Tinggi</th>
+        <th>Tahun</th> 
+      </tr>
+
+    <tr>
+      <td>SDS Mujahidin Pontianak</td>
+      <td>2005-2011</td>
+    </tr>
+
+    <tr>
+      <td>MtsN 2 Pontianak</td>
+      <td>2011-2014</td>
+    </tr>
+
+    <tr>
+      <td>SMAN 2 Pontianak</td>
+      <td>2014-2017</td>
+    </tr>
+    </table>
+    </p>
+    </pre>
+
+    <p style="text-align: center;">
+    <b><a href="beranda.html" style="color:darkslategrey; font-family:courier new; font-size:110%;" >BERANDA</a></b>
+    </p>
+
+  </article>
+</section>
+
+<footer>
+  <p style="font-family: arial narrow">dyne theme by Dinanda De Paguita | Copyright© 2019 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
